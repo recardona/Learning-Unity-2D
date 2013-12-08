@@ -9,7 +9,7 @@ public class HealthScript : MonoBehaviour {
 	public int healthPoints = 2;
 	public bool isEnemy = true;
 
-	void OnTriggerEnter2D(Collider2D collider) {
+	private void OnTriggerEnter2D(Collider2D collider) {
 
 		LaserScript shot = collider.gameObject.GetComponent<LaserScript>();
 
