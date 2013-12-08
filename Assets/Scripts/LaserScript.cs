@@ -8,12 +8,12 @@ public class LaserScript : MonoBehaviour {
 	public bool isEnemyShot = false;
 
 	// Use this for initialization
-	void Start () {
-		Destroy(gameObject, 20); //20 second time-to-live
+	private void Start () {
+		Destroy(gameObject, 5); //5 second time-to-live
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	private void Update () {
 	
 	}
 }
