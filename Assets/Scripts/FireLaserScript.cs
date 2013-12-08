@@ -35,7 +35,9 @@ public class FireLaserScript : MonoBehaviour {
 
 			// create a new laser and set it to where I am
 			Transform laserTransform = (Transform) Instantiate(laserPrefab);
-			laserTransform.position = new Vector2(this.transform.position.x+0.5f, this.transform.position.y);
+			laserTransform.position = isEnemy ? 
+				new Vector2(this.transform.position.x-0.5f, this.transform.position.y) //place the laser to the left of the enemy
+					: new Vector2(this.transform.position.x+0.5f, this.transform.position.y); //place the laser to the right of the player
 
 			LaserScript laser = laserTransform.gameObject.GetComponent<LaserScript>();
 			if(laser != null) {
