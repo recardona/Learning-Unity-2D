@@ -1,0 +1,36 @@
+{"frames": {
+
+"Player.png":
+{
+	"frame": {"x":2,"y":2,"w":75,"h":99},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":99},
+	"sourceSize": {"w":75,"h":99}
+},
+"PlayerDown.png":
+{
+	"frame": {"x":2,"y":158,"w":77,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":90},
+	"sourceSize": {"w":77,"h":90}
+},
+"PlayerUp.png":
+{
+	"frame": {"x":2,"y":79,"w":77,"h":90},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":90},
+	"sourceSize": {"w":77,"h":90}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Player.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e5c134e6658bf6ca71de98942283f3e8:c8e61d2b9d252bc0d68c22e2f1c06139:917de2854ff7f43b325648c0e3d554f9$"
+}
+}
